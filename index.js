@@ -9,7 +9,7 @@ const PORT = 4500;
 app.use(cors());
 
 router.get("/", function (req, res, next) {
-  res.json({ hola: "mundo" });
+  res.json({ hola: "el pepe" });
 });
 
 router.post("/:a/:b", function (req, res, next) {
