@@ -5,12 +5,16 @@
   "main": "suma.js",
   "scripts": {
     "test": "jest",
-    "build": "node suma"
+    "build": "node index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
   }
 }
