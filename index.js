@@ -12,7 +12,7 @@ router.get("/", function (req, res, next) {
   res.json({ hola: "el pepe" });
 });
 
-router.post("/:a/:b", function (req, res, next) {
+router.get("/:a/:b", function (req, res, next) {
   res.json({ result: suma(req.params.a , req.params.b) });
 });
 
