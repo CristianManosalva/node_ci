@@ -5,7 +5,7 @@
   "main": "suma.js",
   "scripts": {
     "test": "jest",
-    "build": "node index"
+    "build": "node suma"
   },
   "keywords": [],
   "author": "",
